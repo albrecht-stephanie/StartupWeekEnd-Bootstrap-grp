@@ -1,0 +1,130 @@
+
+/* HEADER BEGIN*/
+#header {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-family: 'Poppins', sans-serif;
+  height: 50vh;
+  max-width: 100%;
+  background-color: #3C3C3C;
+}
+body {
+  font-family: 'Lato';
+}
+.logo {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: auto;
+  height: 40vh;
+  margin: 10px;
+  filter: brightness(350%);
+}
+/*Header final/*
+
+/*Début partie participants thibault*/
+.modaleButtonBackground {
+    background-color: #14354F;
+}
+/*Fin partie participants thibault*/
+
+/* Début planning stéphanie*/
+h3 {
+  font-family: "Poppins";
+  text-align: center;
+  text-decoration: underline overline;
+}
+.card {
+  border: none;
+}
+.card-header {
+background-color: #29AAE3;
+}
+.dropdown1 {
+  width: 80%;
+  margin: auto;
+}
+.card-body {
+  background-color: lightgray;
+}
+.card-body p:hover {
+  background-color:#E0E0E0;
+  cursor: default;
+}
+.collapsed {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
+/*Fin planning Stéphanie*/
+/* Rainbow effect's debut */
+.rainbow-text {
+  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 1200% 1200%;
+
+  -webkit-animation: rainbow 10s ease infinite;
+  -z-animation: rainbow 10s ease infinite;
+  -o-animation: rainbow 10s ease infinite;
+  animation: rainbow 10s ease infinite;}
+
+  @-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+  }
+  @-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+  }
+  @-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+  }
+  @keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+  }
+/* Rainbow effect's end */
+.facebookBlue {
+  color: #4267B2;
+}
+.twitterBlue {
+  color: #1C9CEB;
+}
+.footerColor {
+  background-color: #3C3C3C;
+}
+.modaleButtonBackground {
+    background-color: #14354F;
+}
+.presentationBackground {
+  background-color: #1A4766;
+}
+.presentationTextColor {
+  color: #FFFFFF;
+}
+.titleSize {
+  font-size: : 50vw;
+}
+.collapseColor {
+  background-color: #29AAE3;
+}
+.navbar{
+  font-family: 'Poppins';
+}
+.navbar-toggler-icon{
+  color:white;
+}
+@media screen and (max-width: 990px) {
+.navbar{
+  border-right:none;
+}}
+.participationButton {
+  background-color: #29AAE3;
+}

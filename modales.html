@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang=fr dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <!--meta for responsive design-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Modales</title>
+  <!-- Bootstrap link must always come before any other CCS link. -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/88460e48d7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Now, it's ok to insert an other CCS link. -->
+  <link href="assets/css/modales.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div>
+    <!-- Coaches button -->
+    <!-- Button trigger modal -->
+    <button type="button" class="btn modaleButtonBackground text-light col-sm-4" data-toggle="modal" data-target="#coachesModal">
+      Coach
+    </button>
+    <!-- Modal -->
+    <div class="modal fade" id="coachesModal" tabindex="-1" role="dialog" aria-labelledby="coachesModal" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header modaleButtonBackground" style="border-bottom-width: 0px;">
+            <h2 class="modal-title text-light text-center">Coach</h2>
+            <button type="button" class="close text-light" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body d-flex flex-column justify-content-center modaleButtonBackground">
+            <div class="d-flex flex-column justify-content-center">
+              <img src="./assets/img/resizedSarah.jpg" class="img-thumbnail rounded mx-auto d-block" alt="sarah"/>
+              <span class="badge badge-pill badge-primary">Sarah Louvet<br>Campus Manager</span>
+            </div>
+            <div class="w-100 p-2"></div>
+            <div class="d-flex flex-column justify-content-center">
+              <img src="./assets/img/resizedJP.jpg" class="img-thumbnail rounded mx-auto d-block" alt="JP"/>
+              <span class="badge badge-pill badge-primary">Jean-Philippe Denet<br>Formateur</span>
+            </div>
+            <div class="w-100 p-2"></div>
+            <div class="d-flex flex-column justify-content-center">
+              <img src="./assets/img/resizedAmelie.jpg" class="img-thumbnail rounded mx-auto d-block" alt="Amélie"/>
+              <span class="badge badge-pill badge-primary">Amélie Revel<br>Formatrice</span>
+            </div>
+            <div class="w-100 p-2"></div>
+            <div class="d-flex flex-column justify-content-center">
+              <img src="./assets/img/resizedAmadou.jpg" class="img-thumbnail rounded mx-auto d-block" alt="Amadou"/>
+              <span class="badge badge-pill badge-primary">Amadou Camara<br>Formateur</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Skills button -->
+    <div class="w-100 p-1"></div>
+    <!-- Juries button -->
+    <!-- Button trigger modal -->
+    <button type="button" class="btn modaleButtonBackground text-light col-sm-4" data-toggle="modal" data-target="#juriesModal">
+      Jury
+    </button>
+    <!-- Modal -->
+    <div class="modal fade" id="juriesModal" tabindex="-1" role="dialog" aria-labelledby="juriesModal" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header modaleButtonBackground" style="border-bottom-width: 0px;">
+            <h2 class="text-light modalesTitles">Jury</h2>
+            <button type="button" class="close text-light" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body modaleButtonBackground">
+            <div class="d-flex flex-column justify-content-center">
+              <img src="./assets/img/resizedSylvie.jpg" class="img-thumbnail rounded mx-auto d-block" alt="Sylvie"/>
+              <span class="badge badge-pill badge-primary">Sylvie Kutz<br>Développeuse Web Junior</span>
+            </div>
+            <div class="w-100 p-2"></div>
+            <div class="d-flex flex-column justify-content-center">
+              <img src="./assets/img/resizedNoe.jpg" class="img-thumbnail rounded mx-auto d-block" alt="Noé"/>
+              <span class="badge badge-pill badge-primary">Noé Kisungu<br>Développeur Web Junior</span>
+            </div>
+            <div class="w-100 p-2"></div>
+            <div class="d-flex flex-column justify-content-center">
+              <img src="./assets/img/resizedPierre.jpg" class="img-thumbnail rounded mx-auto d-block" alt="Pierre"/>
+              <span class="badge badge-pill badge-primary">Pierre Monvoisin<br>Développeur Web Junior</span>
+            </div>
+            <div class="w-100 p-2"></div>
+            <div class="d-flex flex-column justify-content-center">
+              <img src="./assets/img/resizedAnthony.jpg" class="img-thumbnail rounded mx-auto d-block" alt="Anthony"/>
+              <span class="badge badge-pill badge-primary">Anthony Francelle<br>Développeur Web Junior</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Skills button -->
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

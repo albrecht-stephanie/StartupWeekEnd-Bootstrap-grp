@@ -1,0 +1,38 @@
+h3
+{
+  font-family: "Poppins";
+
+  text-align: center;
+  text-decoration: underline overline;
+}
+.card
+{
+  border: none;
+}
+.card-header
+{
+background-color: #29AAE3;
+}
+.dropdown1, .dropdown2, .dropdown3
+{
+  width: 80%;
+  margin: auto;
+}
+.card-body
+{
+  background-color: lightgray;
+}
+.card-body p:hover
+{
+  background-color:#E0E0E0;
+  cursor: default;
+}
+.collapsed
+{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+
+
+}

@@ -1,0 +1,21 @@
+/* HEADER BEGIN*/
+
+#header {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  height: 100px;
+  max-width: 100%;
+  background-color: #3C3C3C;
+  margin-bottom: -20px;
+}
+.logo {
+  background-image: url("../imgH/StartupWE.png");
+  background-size: contain; /* Important*/
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: auto;
+  margin: 10px;
+  filter: brightness(350%);
+}
+/*Header final/*
